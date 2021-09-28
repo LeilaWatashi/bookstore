@@ -1,0 +1,14 @@
+package com.watashi.bookstore.dto;
+
+import lombok.Getter;
+import lombok.Setter;
+import org.springframework.stereotype.Component;
+
+@Getter
+@Setter
+@Component
+public class ProductForSimpleStockViewDTO extends EntityDTO{
+    private Long id;
+    private String title;
+    private String imageUrl;
+}
